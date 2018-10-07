@@ -38,8 +38,15 @@
   <script src='//push.zhanzhang.baidu.com/push.js'></script>
 </head>
 
+
   <link rel="stylesheet" href="/gitalk/gitalk.css">
   <script src="/gitalk/gitalk.min.js"></script>
+
+
+
+  <link rel="stylesheet" href="/gitalk/gitalk.css">
+  <script src="/gitalk/gitalk.min.js"></script>
+  <script src="/gitalk/md5.min.js"></script>
 
 <body class="home blog custom-background custom-font-enabled single-author">
   <div id="page" class="hfeed site">
@@ -89,7 +96,7 @@
             
             <a href="/2018/10/06/hello-world/#comments" class="leave-reply">评论</a>
             
-            <a href="javascript:void(0);" data-url="https://kszora.github.io/2018/10/06/hello-world/" data-id="cjmyzyw8k0000ykd3syje006o" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
+            <a href="javascript:void(0);" data-url="https://kszora.github.io/2018/10/06/hello-world/" data-id="cjmz0ddsl0000x0d34vs5rbfz" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -165,7 +172,7 @@
             repo: 'kszora.github.io',
             owner: 'Kszora',
             admin: ['kszora'],
-            id: location.pathname,      // Ensure uniqueness and length less than 50
+            id: md5(location.pathname),      // Ensure uniqueness and length less than 50
             distractionFreeMode: false  // Facebook-like distraction free mode
         })
 
