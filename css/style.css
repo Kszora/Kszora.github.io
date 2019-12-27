@@ -585,7 +585,7 @@ body.custom-font-enabled {
 }
 a {
 	outline: none;
-	color: rgb(81, 165, 168); /*Article Title Normal*/
+	color: rgb(255, 195, 250); /*Article Title Normal*/
     text-decoration: none;
 }
 a:hover {
@@ -671,7 +671,7 @@ a:hover {
 
 .site-header h1 a,
 .site-header h2 a {
-	color: #515151;
+	color: #f3ffb7;
 	display: inline-block;
 	text-decoration: none;
 }
@@ -861,7 +861,7 @@ footer[role="contentinfo"] a:hover {
 }
 .comments-link a,
 .entry-meta a {
-	color: rgb(88, 88, 88); /*Article Meta Link Normal*/
+	color: rgb(255, 195, 250); /*Article Meta Link Normal*/
 }
 .comments-link a:hover,
 .entry-meta a:hover {
@@ -949,7 +949,7 @@ article.sticky .featured-post {
 
 .entry-content a,
 .comment-content a {
-	color: rgb(81, 165, 168); /* Link in Article Content Normal */
+	color: rgb(2, 241, 255); /* Link in Article Content Normal */
 }
 
 .entry-content a:Hover,
@@ -1727,7 +1727,7 @@ img#wpstats {
 	}
 	.main-navigation li a {
 		border-bottom: 0;
-		color: #6a6a6a;
+		color: #a4f6ff;
 		line-height: 3.692307692;
 		text-transform: uppercase;
 		white-space: nowrap;
