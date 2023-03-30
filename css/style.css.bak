@@ -691,7 +691,7 @@ a:hover {
 	font-size: 13px;
 	font-size: 0.928571429rem;
 	line-height: 1.846153846;
-	color: #ffd400;
+	color: #757575;
 }
 .header-image {
 	margin-top: 24px;
